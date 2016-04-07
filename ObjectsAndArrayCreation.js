@@ -6,12 +6,16 @@
  * that prints out Mary's phone number.
  */
 
+
+// bob object
 var bob = {
 	firstName : "Bob",
 	lastName : "Jones",
 	phoneNumber : "(650) 777-7777",
 	email : "bob.jones@example.com"
 };
+
+// mary object
 
 var mary = {
 	firstname : "Mary",
@@ -20,6 +24,7 @@ var mary = {
 	email : "mary.johnson@example.com"
 };
 
+// create contacts array
 var contacts = [ bob, mary ];
 
 console.log(mary.phoneNumber);
